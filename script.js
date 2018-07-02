@@ -132,9 +132,9 @@ function checkHash()
 {
 	lstrHash = window.location.hash.replace('#/', '#');
 	
-	if($('a[href*='+ lstrHash +']').length > 0)
+	if($('a[href*\\='+ lstrHash +']').length > 0)
 	{
-		$('a[href*='+ lstrHash +']').trigger('click');
+		$('a[href*\\='+ lstrHash +']').trigger('click');
 	}
 }
 
