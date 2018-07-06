@@ -140,12 +140,12 @@ i{
 .project__used__item{display:inline-block;
 	margin:5px 5px 5px 0;
 	/*font-family:Inconsolata,monospace;*/
-	font-size:1.5rem;
+	font-size:1.2rem;
 	font-weight:700;
 	padding:2px 7px;
 	border-radius:3px;
-	color:teal;
-	border:1px solid teal;
+	color:#22a39f;
+	border:1px solid #22a39f;
 	background:0 0}
 .project__used__item:first-of-type{margin-left:0}
 #typed-strings{
