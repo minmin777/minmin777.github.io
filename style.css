@@ -160,11 +160,12 @@ i{
     			
 			
 }
-.container { max-width: 1280px; padding: 80px 180px; }
+.container { max-width: 1280px; padding: 120px 150px; }
 
 #profile .row > div { margin-bottom: 20px; }
 #profile .row > div img { width: 100%; max-width: 346px; height: auto; }
-	
+#profile { max-width: 1280px; padding: 100px 120px; }
+
 #experiences .experience { margin-bottom: 20px; }
 #experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
 #experiences .experience .experience-details { display: block; margin-top: 6px; }
