@@ -133,14 +133,14 @@ i{
 .banner-text h1{
 	font-family: 'Galada', cursive;
 	color: #FFD700;
-	font-size: 200px;
+	font-size: 100px;
 
 }
 
 .project__used__item{display:inline-block;
 	margin:5px 5px 5px 0;
 	/*font-family:Inconsolata,monospace;*/
-	font-size:.75rem;
+	font-size:1.5rem;
 	font-weight:700;
 	padding:2px 7px;
 	border-radius:3px;
