@@ -172,6 +172,9 @@ i{
 #experiences .experience .experience-details * { color: #22A39F; }
 #experiences .experience .experience-details .seperator { color: #BCBCBC; }
 
+#abilities .skills h4{
+	font-color: #22A39F;
+}
 #abilities ul > li { min-height: 30px; padding: 3px 0px; }
 #abilities ul > li:hover { background: #F2F2F2; }
 #abilities ul > li .ability-title { display: inline-block; width: 60%; }
