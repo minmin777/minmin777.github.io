@@ -76,6 +76,8 @@ i{
 
 #top {
 	/*background: url(../img/background.jpg) no-repeat center top;*/
+	height:700px; 
+	background: url(background.jpg);
   background-color: #f94c44;
 	margin-top: 0px;
 	/*padding-top:120px;*/
@@ -278,14 +280,7 @@ i{
 }
 
 @media (max-width: 767px) { 
-	.jumbotron:before {
-		bottom: 100px;
-		left: 20px;
-		right: 20px;
-		top: 20px;		
-	}
-	.jumbotron .container { top: 20%; padding-top: 0px; }
-	.jumbotron .scroll-down { width: 100%; right: 0px; }
+
 	
 	.navbar  { left: 0px; width: 100%; }
 	.navbar .nav > li { height: 60px; }
@@ -295,9 +290,13 @@ i{
 	
 	.container { padding: 60px 20px; min-width: 280px; }
 	.hidden-phone { display: none; }
-	
-	#profile .row * { text-align: center; }
-	
+	.banner-text h1{
+	font-size: 30px;
+
+	}
+	/*#profile .row * { text-align: center; }*/
+	#profile .left { float: none; }
+	#profile .right { float: none; }
 	#experiences .experience .experience-details > span { display: block; margin-bottom: 6px; }
 	#experiences .experience .experience-details .seperator { display: none; }
 	
