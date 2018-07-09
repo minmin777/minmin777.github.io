@@ -215,6 +215,7 @@ i{
 }
 
 /* #projects .row { margin: 0px; } // bootstrap 3.1- hack */
+#projects .project .experience-details *{ color: #22A39F; }
 #projects .row > div { margin-bottom: 30px; }
 #projects figure { position: relative; overflow: hidden; }
 #projects figure h3 { color: #FFF; font-weight: 600; margin-bottom: 5px; }
