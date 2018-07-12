@@ -163,6 +163,7 @@ i{
 #profile .row > div { margin-bottom: 20px; }
 #profile .row > div img { width: 100%; max-width: 346px; height: auto; }
 #profile { max-width: 1280px; padding: 100px 120px; }
+#profile .icons {padding: 40px 350px;}
 
 #experiences .experience { margin-bottom: 20px; }
 #experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
@@ -292,18 +293,9 @@ i{
 
 	}
 	/*#profile .row * { text-align: center; }*/
-	i{
-	color: teal;
-	size: 10px;
-}
-	i .right{
-		float: none;
-	}
-	i .left {
-		float: none;
-	}
 	#profile .left { float: none; }
 	#profile .right { float: none; }
+	#profile .icons {padding: 10px 20px;}
 	#experiences .experience .experience-details > span { display: block; margin-bottom: 6px; }
 	#experiences .experience .experience-details .seperator { display: none; }
 	
